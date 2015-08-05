@@ -1,0 +1,35 @@
+body{
+	transition:all 1s ease-in-out;
+}
+.navbar-default{
+	background: transparent;
+	border-color: transparent;
+}
+.navbar-default .navbar-brand {
+	color: #000;
+	font-family: 'Pacifico', cursive;
+	font-size: 30px;
+}
+.navbar-default .navbar-brand span{
+	font-family: 'Anton', sans-serif;
+	color: yellow;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	color: #000;
+	background-color: transparent;
+	border-bottom: 4px solid yellow;
+}
+.navbar-default .navbar-nav>li>a{
+	color:#000;
+	font-family: 'Pacifico', cursive;
+	border-bottom: 4px solid transparent;
+}
+.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:focus{
+	border-bottom: 4px solid yellow;
+	color: #000;
+	-webkit-transition:all .5s ease-in-out;
+	-moz-transition:all .5s ease-in-out;
+	-o-transition:all .5s ease-in-out;
+	transition:all .5s ease-in-out;
+	background-color: transparent; 	
+}
