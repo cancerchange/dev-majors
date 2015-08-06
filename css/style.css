@@ -14,6 +14,9 @@ body{
 	font-family: 'Pacifico', cursive;
 	font-size: 30px;
 }
+.navbar-default .navbar-brand{
+	color: #fff;
+}
 .navbar-default .navbar-brand span{
 	font-family: 'Anton', sans-serif;
 	color: yellow;
